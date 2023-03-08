@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #0095ff;
+    --secondary-color: #fff;
+}
+
+.buttons button {
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    border-radius: 10em;
+    background: var(--primary-color);
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-weight: 500;
+}
+
+button:hover {
+    animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px solid var(--primary-color);
+    padding: 20px;
+    width: 50%;
+}
+
+.container-count h1 {
+    font-size: 5rem;
+    color: rgb(33, 207, 33);
+}
+
+.container-counter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

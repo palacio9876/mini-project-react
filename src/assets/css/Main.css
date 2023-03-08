@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #0095ff;
+    --secondary-color: #fff;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    height: 85vh;
+    gap: 50px;
+    background-color: #0095ff42;
+}
+
+main img{
+    width: 500px;
+}
+
+main h1{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
