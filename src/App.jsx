@@ -1,7 +1,7 @@
 import { Home } from "./pages/Home.jsx";
 import { Counter } from "./pages/Counter.jsx";
 import { Routes, Route } from "react-router-dom";
-import { Contactanos } from "./pages/Contactanos.jsx";
+import { ContactUs } from "./pages/ContactUs";
 import "./App.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
-        <Route path="/contactanos" element={<Contactanos />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </>
